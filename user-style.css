@@ -1,58 +1,27 @@
 @-moz-document domain("news.ycombinator.com") {
-	* {
-		font-family: sans-serif !important;
-	}
-
-	td.title {
-		font-size: medium !important;
-	}
-
-	a {
-		color:#93A1A1 !important;
-	}
-
-	td.default a, td.title a:link, span.comment a:link {
-		color:#2aa198 !important;
-	}
-
-	.comment {
-		color:#93A1A1 !important;
-	}
-
-	font {
-		color:inherit !important;
-		font-family:inherit !important;
-		font-size:inherit !important;
-	}
-
-	td.title a:visited,  span.comment a:visited {
-	    color:#b58900 !important;
-	}
-
-	span.yclinks a, td.default span.comhead a, td.subtext a, td.subtext span {
-		color:#93a1a1 !important;
-	}
-
-	td.default span.comhead a, td.subtext a {
-		font-weight: bold;
-	}
-
-	body > center > table > tbody > tr:first-child > td {
-		background-color:#073642 !important;
-	}
-
-	body, body > center > table {
-		background-color: #002b36 !important;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	code, pre {
-		color:#b58900 !important;
-		background:#073642 !important;
-	}
-
-	a:hover {
-		background:#073642 !important;
-	}
+  * {
+    color: #93A1A1 !important;
+    background-color: #002b36 !important;
+  }
+  body > center > table > tbody > tr:first-child * {
+    background-color: #073642 !important;
+  }
+  body > center > table > tbody > tr:first-child * a:hover {
+    background: #002b36 !important;
+  }
+  code, pre, input, textarea {
+    background: #073642 !important;
+  }
+  a {
+    color: #2aa198 !important;
+  }
+  .subtext a {
+    color: #93A1A1 !important;
+  }
+  a:visited, a:visited span {
+    color: #b58900 !important;
+  }
+  a:hover, a:hover span {
+    background: #073642 !important;
+  }
 }
